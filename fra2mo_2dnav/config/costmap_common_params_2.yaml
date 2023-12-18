@@ -1,0 +1,10 @@
+publish_voxel_map: false 
+transform_tolerance: 0.5
+meter_scoring: true
+obstacle_range: 50.0 # maximum range sensor reading that will result in an obstacle being put into the costmap
+raytrace_range: 50.0 # range to which we will raytrace freespace given a sensor reading
+footprint: [[0.10, -0.10], 
+            [-0.10, -0.10], 
+            [-0.10, 0.10], 
+            [0.10, 0.10]]
+            
